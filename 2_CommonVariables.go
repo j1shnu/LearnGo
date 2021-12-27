@@ -26,4 +26,16 @@ func main() {
 	var age5 float64
 
 	fmt.Println(age1, age3, age4, age5)
+
+	// Constants
+	const name5 = "James"
+	const name6 string = "Julie"
+	fmt.Println(name5, name6)
+
+	// Declare multiple
+	const (
+		age6 = 30
+		age7 = 27
+	)
+	fmt.Println(age6, age7)
 }
